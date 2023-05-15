@@ -16,6 +16,7 @@ async function getWeatherData(place) {
       pressure_mb: pressureInMb,
       temp_c: tempInCelsius,
       temp_f: tempInFahrenheit,
+      wind_kph: windSpeedInKph,
     },
   } = weatherData;
   const requiredWeatherData = {
@@ -27,6 +28,7 @@ async function getWeatherData(place) {
     pressureInMb,
     tempInCelsius,
     tempInFahrenheit,
+    windSpeedInKph,
   };
   return requiredWeatherData;
 }

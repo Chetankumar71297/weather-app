@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.weather {
+  width: 300px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.weather p {
+  margin: 5px 0;
+}
+
+.weather p:first-of-type {
+  font-weight: bold;
+}
+
+.weather p:nth-of-type(odd) {
+  color: #888;
+}
